@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.7"
+  - "3.8"
 
 install:
   - pip install -r requirements.txt
@@ -8,7 +8,6 @@ install:
 script:
   - black .
   - flake8 .
-
 
 deploy:
   provider: elasticbeanstalk
