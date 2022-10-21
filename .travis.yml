@@ -7,3 +7,14 @@ install:
 
 script:
   - python manage.py test
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "Encrypted <access-key-id>=AKIAUQCXHFK6XW3ABNBA"
+  secret_access_key:
+    secure: "Encypted <secret-access-key>=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"
+  region: "us-west-2"
+  app: "django-env"
+  env: "django-tutorial"
+  bucket_name: "the-target-S3-bucket"
