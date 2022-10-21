@@ -15,6 +15,6 @@ deploy:
   secret_access_key:
     secure: "Encypted <secret-access-key>=YUH+mxnJhvAbQ2Ake4vPLpISdZypRZmsr+wO2PdY"
   region: "us-west-2"
-  app: "django-env"
-  env: "django-tutorial"
+  app: "django-tutorial"
+  env: "django-env"
   bucket_name: "the-target-S3-bucket"
