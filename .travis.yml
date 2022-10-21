@@ -8,7 +8,6 @@ install:
 script:
   - black .
   - flake8 .
-  - python manage.py test
   - coverage run manage.py test
 
 after_script:
