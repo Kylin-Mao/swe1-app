@@ -17,7 +17,6 @@ deploy:
   provider: elasticbeanstalk
   access_key_id: $AWS_ACCESS_KEY_ID
   secret_access_key: $AWS_SECRET_KEY
-  #    secure: "Encypted <secret-access-key>=YUH+mxnJhvAbQ2Ake4vPLpISdZypRZmsr+wO2PdY"
   region: "us-west-2"
   app: "django-tutorial"
   env: "django-env"
