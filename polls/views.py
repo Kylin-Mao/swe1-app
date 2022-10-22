@@ -36,7 +36,7 @@ def vote(request, question_id):
             "polls/detail.html",
             {
                 "question": question,
-                "error_message": "You didn't select a choice man.",
+                "error_message": "You didn't select a choice my man.",
             },
         )
     else:
