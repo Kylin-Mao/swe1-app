@@ -15,8 +15,8 @@ after_script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: "AKIAUQCXHFK6XW3ABNBA"
-  secret_access_key: "YUHmxnJhvAbQ2Ake4vPLpISdZypRZmsrwO2PdY"
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
   #    secure: "Encypted <secret-access-key>=YUH+mxnJhvAbQ2Ake4vPLpISdZypRZmsr+wO2PdY"
   region: "us-west-2"
   app: "django-tutorial"
